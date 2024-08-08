@@ -1,0 +1,110 @@
+.body_bbq{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: red;
+    min-height: 100px;
+}
+
+.left{
+    background-color: rgba(0, 0, 0, 0.947);
+}
+
+
+.right{
+    background-color: rgba(0, 0, 0, 0.947);
+}
+
+#logo{
+    justify-content: center;
+    text-align: center;
+}
+.logo_txt{
+    color: rgb(225, 143, 19);
+    font-size: 20px;
+    text-align: center;
+}
+.desc{
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    color: antiquewhite ;
+}
+
+.b1{
+    background-color: cyan;
+    padding: 10px;
+    font-size: 15px;
+    color: darkblue;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.b2{
+    background-color: olive;
+    padding: 10px;
+    font-size: 15px;
+    color: wheat;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+.btn{
+    text-align: center;
+}
+.details{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.back{
+    background-color: orange;
+    max-width: 400px;
+    display: flex;
+
+}
+.left_footer{
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    height: 30px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.left_footer div{
+    border-left: 2px solid black;
+    padding-left: 5px ;
+}
+
+.box1{
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.top_b2{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+    color: black;
+}
+.card{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 5%;
+    color: wheat;
+}
+.card1{
+    border-right: 1px solid white;
+    text-align: center;
+}
+.card2{
+    text-align: center;
+}
